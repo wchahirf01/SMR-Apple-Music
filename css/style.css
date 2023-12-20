@@ -26,7 +26,6 @@ header {
 
 h1 {
     color: #f94c57;
-    text-align: center;
 }
 
 /* Navigation bar */
@@ -51,8 +50,9 @@ section {
     padding: 20px;
     border-radius: 20px;
 }
+
 section:nth-child(1) {
-     margin-bottom: 20px;
+     margin-bottom: 25px;
 }
 
 h2 {
@@ -73,6 +73,7 @@ div {
     border-bottom: 1px solid #808080;
     margin-bottom: 10px;
 }
+
 div > img {
     width: 30px;
 }
