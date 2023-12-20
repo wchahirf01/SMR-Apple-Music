@@ -1,0 +1,92 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px 200px;
+}
+
+h1,
+h2,
+h3,
+p,
+ol,
+li {
+    margin: 0px;
+}
+
+/* Header */
+header {
+    background: #c2cad7;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #fc3c44;
+}
+
+h1 {
+    color: #f94c57;
+    text-align: center;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #fc3c44;
+    padding: 10px;
+}
+
+nav > a {
+    color: #ffffff;
+}
+
+/* Main */
+main {
+    border: 2px solid #f94c57;
+    padding: 25px 50px;
+}
+
+section {
+    border: 2px solid #f94c57;
+    background-color: #c2cad7;
+    padding: 20px;
+    border-radius: 20px;
+}
+section:nth-child(1) {
+     margin-bottom: 20px;
+}
+
+h2 {
+    color: #f94c57;
+    border-bottom: 2px solid #f94c57;
+    margin-bottom: 20px;
+}
+
+h2 + p {
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #808080;
+    margin-bottom: 10px;
+}
+div > img {
+    width: 30px;
+}
+
+div > p {
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    background-color: #fc3c44;
+    border-top: 4px solid #f3585d;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
